@@ -2,6 +2,8 @@ import '@/styles/globals.css'
 import { ReactNode } from 'react'
 import { Inter } from 'next/font/google'
 import { Header } from '@/components/header'
+import { TopHeader } from '@/components/top-header'
+import { Footer } from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,8 +20,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="pt-br">
       <body className={inter.className}>
+        <TopHeader />
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
