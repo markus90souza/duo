@@ -22,7 +22,7 @@ export const AboutUs: FC = () => {
 
                 <div className="relative m-auto items-center md:order-first lg:inline-flex">
                   <div className="max-w-xl lg:text-left">
-                    <div className="max-w-sm sm:-ml-[430px] sm:mb-32">
+                    <div className="max-w-sm  sm:mb-32">
                       <h3 className="text-4xl font-bold tracking-tight block text-[#22253F] sm:text-4xl">
                         Facilitamos a conexão entre profissionais e seus
                         clientes
@@ -42,7 +42,7 @@ export const AboutUs: FC = () => {
                 <div className="relative m-auto items-center md:order-first lg:inline-flex">
                   <div className="max-w-xl text-center lg:text-left">
                     <div className="max-w-sm mt-12">
-                      <p className="mt-4 max-w-xl text-2xl tracking-tight text-gray-600">
+                      <p className="mt-4 text-justify max-w-xl text-2xl tracking-tight text-gray-600">
                         Nossas soluções tem como foco a gestão eficiente de
                         mensagens de confirmação de agendamentos , lembretes e
                         reagendamentos. Tudo de forma automática via Whatsapp
@@ -50,7 +50,7 @@ export const AboutUs: FC = () => {
                         realmente importa.
                       </p>
 
-                      <p className="mt-4 max-w-xl text-2xl tracking-tight text-gray-600">
+                      <p className="text-justify mt-4 max-w-xl text-2xl tracking-tight text-gray-600">
                         Desenvolvemos soluções de mensageria para facilitar o
                         dia a dia dos profissionais que trabalham com
                         agendamentos para aumentar seus lucros

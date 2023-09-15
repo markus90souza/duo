@@ -29,6 +29,13 @@ function MobileNavLink({ children, href = '', ...props }: MobileNavProps) {
   )
 }
 
+const navigation = [
+  { name: 'Planos e Preços', href: '#plans' },
+  { name: 'A Soluçao', href: '#solutions' },
+  { name: 'Materiais', href: '#files' },
+  { name: 'Quem Somos', href: '#about-us' },
+]
+
 export const Header: FC = () => {
   return (
     <header>
@@ -82,22 +89,11 @@ export const Header: FC = () => {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="#features">
-                              Quem somos
-                            </MobileNavLink>
-                            <MobileNavLink href="#reviews">
-                              Nossas soluções
-                            </MobileNavLink>
-                            <MobileNavLink href="#pricing">
-                              Planos e Preços
-                            </MobileNavLink>
-                            <MobileNavLink href="#faqs">
-                              Perguntas frequentes
-                            </MobileNavLink>
-
-                            <MobileNavLink href="#faqs">
-                              Fale conosco
-                            </MobileNavLink>
+                            {navigation.map((link, index) => (
+                              <MobileNavLink key={index} href={link.href}>
+                                {link.name}
+                              </MobileNavLink>
+                            ))}
                           </div>
                         </Popover.Panel>
                       </>

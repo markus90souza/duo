@@ -145,7 +145,7 @@ const Footer = () => {
                   ))}
                 </ul>
               </div>
-              <div className="mt-12 md:mt-0">
+              {/* <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-400">
                   Politica de privacidade
                 </h3>
@@ -161,7 +161,7 @@ const Footer = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

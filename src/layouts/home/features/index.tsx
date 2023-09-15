@@ -17,8 +17,8 @@ export const Features: FC = () => {
                       <h3 className="text-4xl font-bold tracking-tight text-black sm:text-4xl">
                         Aumente a rentabilidade do seu negócio
                       </h3>
-                      <p className="mt-4 max-w-xl sm:text-2xl text-base tracking-tight text-gray-600">
-                        confirmação automática, antecipada e no mesmo dia. Nossa
+                      <p className="text-justify mt-4 max-w-xl sm:text-2xl text-base tracking-tight text-gray-600">
+                        Confirmação automática, antecipada e no mesmo dia. Nossa
                         solução reduzira 50% a chance do seu cliente cancelar em
                         cima da hora e de sua agenda ficar vazia.
                       </p>
@@ -49,7 +49,7 @@ export const Features: FC = () => {
                       <h3 className="text-4xl font-bold tracking-tight text-black sm:text-4xl">
                         Aumento da taxa de retorno
                       </h3>
-                      <p className="mt-4 max-w-xl sm:text-2xl text-base tracking-tight text-gray-600">
+                      <p className="text-justify mt-4 max-w-xl sm:text-2xl text-base tracking-tight text-gray-600">
                         Lembretes direcionados. “O cliente fez um procedimento
                         que precisa manutenção recorrente? “ Quando estiver
                         próximo ao vencimento, nossa solução o lembrará que já é
@@ -82,7 +82,7 @@ export const Features: FC = () => {
                       <h3 className="text-4xl font-bold tracking-tight text-black sm:text-4xl">
                         Melhore o investimento do seu tempo.
                       </h3>
-                      <p className="mt-4 max-w-xl text-base sm:text-2xl tracking-tight text-gray-600">
+                      <p className="text-justify mt-4 max-w-xl text-base sm:text-2xl tracking-tight text-gray-600">
                         Com a confirmação automática, você precisará entrar em
                         contato com o cliente apenas quando ele desejar fazer um
                         reagendamento. Isso reduz em 80% o tempo investido em
